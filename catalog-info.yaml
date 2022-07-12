@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: |
+    Backstage is an open-source developer portal that puts the developer experience first.
+  annotations:
+    sonarqube.org/project-key: utkarshdev_supabase-extend
+spec:
+  type: library
+  owner: CNCF
+  lifecycle: experimental
